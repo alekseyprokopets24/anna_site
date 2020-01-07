@@ -39,10 +39,7 @@
     .start-container{
         flex-direction: column;
     }
-    .start__img{
-        max-width: 50%;
-        
-    }
+    
     .start-descr{
         font-size: 14px;
     }
@@ -55,6 +52,10 @@
     
 }
 @media(max-width: 600px){
+   
+    .container{
+        padding: 30px 30px;
+    }
     .header__descr{
         font-size: 14px;
     }
