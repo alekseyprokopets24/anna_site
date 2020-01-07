@@ -107,6 +107,7 @@ img {
 .input {
     background-color: transparent;
     border: none;
+    border-radius: 0px;
     border-bottom: 1px solid #fff;
     -moz-border-bottom: 1px solid #fff;
     -webkit-border-bottom: 1px solid #fff;
