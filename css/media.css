@@ -1,4 +1,21 @@
 @media(max-width: 900px){
+    .contact-form__title{
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .name-input{
+        margin-bottom: 10px;
+    }
+    .header-content{
+        padding-bottom: 30px;
+    }
+    .privilege-icon{
+        width: 48px;
+    }
+    .section__title{
+        font-size: 24px;
+        padding-bottom: 40px;
+    }
     .privilege-text{
         font-size: 14px;
     }
@@ -23,7 +40,14 @@
         flex-direction: column;
     }
     .start__img{
-        max-width: 100%;
+        max-width: 50%;
+        
+    }
+    .start-descr{
+        font-size: 14px;
+    }
+    .start__img-container{
+        text-align: center;
     }
     .start__img-container , .start-descr{
         width: 80%;
@@ -31,6 +55,29 @@
     
 }
 @media(max-width: 600px){
+    .header__descr{
+        font-size: 14px;
+    }
+    .privilege-icon{
+        width: 36px;
+        margin-bottom: 10px;
+    }
+    .section__title{
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+    .start-descr{
+        font-size: 14px;
+    }
+    .contact-desrc{
+        font-size: 18px;
+    }
+    .contacts-list__item{
+        margin: 0 0 10px 0;
+    }
+    .contacts-list{
+        margin: 0;
+    }
     .nav{
         width: 320px;
     }
@@ -38,16 +85,33 @@
         flex-direction: column;
     }
     .nav-list__item{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .form{
         margin-bottom: 10px;
     }
     .contact-form__title{
-        font-size: 16px;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .name-input {
+        margin-bottom: 10px;
+    }
+    .input{
+        font-size: 12px;
+    }
+    .contact-form__btn-sent{
+        font-size: 14px;
     }
     .privilege-text{
         width: 80%;
     }
     .contact-container{
         flex-direction: column;
+    }
+    .header-content{
+        padding-bottom: 20px;
     }
 }
 @media(max-width: 320px){
@@ -60,6 +124,7 @@
     }
     .contact-form__title{
         font-size: 12px;
+        margin-bottom: 10px;
     }
     .section__title{
         font-size: 18px;
@@ -73,12 +138,37 @@
         margin-bottom: 10px;
     }
     .privilege-text{
-        font-size: 12px;
+        font-size: 8px;
     }
     .start-descr{
         font-size: 12px;
     }
     .contact-desrc{
         font-size: 14px;
+    }
+    .nav-list__item{
+        font-size: 14px;
+    }
+    .input{
+        font-size: 14px;
+    }
+    .header-content{
+        padding-bottom: 20px;
+    }
+    .contact-form__btn-sent{
+        font-size: 14px;
+    }
+    .name-input{
+        margin-bottom: 8px;
+    }
+    .contacts-list__item{
+        margin-bottom: 10px;
+    }
+    .icon-contact{
+        width: 24px;
+        height: 24px;
+    }
+    .contacts-list{
+        margin: 0;
     }
 }
