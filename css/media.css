@@ -1,0 +1,84 @@
+@media(max-width: 900px){
+    .privilege-text{
+        font-size: 14px;
+    }
+    .privilege-list__item{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .header-top{
+        flex-direction: column;
+        
+    }
+    .logo{
+        margin: 0 0 50px 0;
+    }
+    .header__title{
+        font-size: 36px;
+    }
+    .header__descr{
+        font-size: 18px;
+    }
+    .start-container{
+        flex-direction: column;
+    }
+    .start__img{
+        max-width: 100%;
+    }
+    .start__img-container , .start-descr{
+        width: 80%;
+    }
+    
+}
+@media(max-width: 600px){
+    .nav{
+        width: 320px;
+    }
+    .nav-list{
+        flex-direction: column;
+    }
+    .nav-list__item{
+        margin-bottom: 10px;
+    }
+    .contact-form__title{
+        font-size: 16px;
+    }
+    .privilege-text{
+        width: 80%;
+    }
+    .contact-container{
+        flex-direction: column;
+    }
+}
+@media(max-width: 320px){
+    .header__title{
+        font-size: 24px;
+    }
+    .header__descr{
+        max-width: 240px;
+        font-size: 12px;
+    }
+    .contact-form__title{
+        font-size: 12px;
+    }
+    .section__title{
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+    .privilege-list__item{
+        width: 100%;
+    }
+    .privilege-icon{
+        width: 24px;
+        margin-bottom: 10px;
+    }
+    .privilege-text{
+        font-size: 12px;
+    }
+    .start-descr{
+        font-size: 12px;
+    }
+    .contact-desrc{
+        font-size: 14px;
+    }
+}
