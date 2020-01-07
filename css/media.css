@@ -106,6 +106,7 @@
     }
     .privilege-text{
         width: 80%;
+        font-size: 8px;
     }
     .contact-container{
         flex-direction: column;
