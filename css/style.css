@@ -1,0 +1,238 @@
+img {
+    max-width: 100%;
+}
+
+.body {
+    background-color: #005a74;
+    font-family: Gilroy Regular, 'sans serif';
+    text-transform: uppercase;
+}
+
+.container {
+    padding: 30px 70px;
+}
+
+.header-section {
+    background-image: url(../img/header-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.logo {
+    width: 200px;
+    height: 100px;
+    margin-right: 80px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav {
+    width: 70%;
+}
+
+.nav-list__item {
+    font-size: 18px;
+    color: #fff;
+}
+
+.header-content {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.header__title {
+    font-size: 72px;
+    margin-bottom: 10px;
+}
+
+.header__descr {
+    font-size: 24px;
+    width: 40%;
+    font-family: Gilroy Regular, 'sans serif';
+}
+
+.contact-form {
+    width: 700px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../img/contact-form-bg.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding: 20px 80px;
+    color: #fff;
+}
+
+.contact-form__title {
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-family: Gilroy Bold, 'sans serif';
+}
+
+.contact-form__btn-sent {
+    background-color: transparent;
+    padding: 10px;
+    color: #fff;
+    font-family: Gilroy Bold, 'sans serif';
+    font-size: 24px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+
+.input::placeholder {
+    text-align: center;
+    color: #fff;
+}
+
+.name-input {
+    margin-bottom: 30px;
+}
+
+.privilege-text {
+    color: #fff;
+    font-size: 18px;
+    width: 260px;
+    font-family: Gilroy Bold, 'sans serif';
+}
+
+.privilege-list__item {
+    width: 33.3%;
+    text-align: center;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section__title {
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    padding-bottom: 70px;
+}
+
+.privilege-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.privilege-icon {
+    margin-bottom: 30px;
+}
+
+
+
+.privilege-section {
+    background-image: url(../img/privilege-section-bg.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.start__img-container, .start-descr {
+    width: 50%;
+}
+
+.start__img {
+    max-width: 80%;
+}
+
+.start-container {
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.start-descr {
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+.start-stage {
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+}
+
+.contact-section {
+    background-image: url(../img/footer-bg.png);
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contacts-list, .map-container {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.contacts-list{
+    margin-right: 50px;
+}
+
+.contacts-list__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.contact-desrc {
+    font-size: 32px;
+    color: #fff;
+}
+
+.icon-contact {
+    margin-right: 20px;
+}
