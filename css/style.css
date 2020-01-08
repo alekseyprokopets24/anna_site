@@ -20,7 +20,6 @@ img {
 }
 
 .header-top {
-    
     display: flex;
     align-items: center;
     padding-bottom: 40px;
@@ -33,7 +32,9 @@ img {
 }
 
 .nav-list {
-    
+    position: relative;
+    padding: 10px;
+    display: inline-block;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -44,9 +45,18 @@ img {
 }
 
 .nav-list__item {
+    position: relative;
     font-size: 14px;
+    padding: 4px 0;
     color: #fff;
     text-decoration: none;
+    text-decoration-line: none;
+}
+.contact-form__btn-sent:hover{
+    color: #000;
+    background-color: #fff;
+    transition: background-color 1s linear;
+    transition: color 1s linear;
 }
 
 .header-content {
@@ -145,7 +155,8 @@ img {
     flex-direction: column;
     align-items: center;
 }
-.section{
+
+.section {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -168,8 +179,6 @@ img {
     margin-bottom: 30px;
 }
 
-
-
 .privilege-section {
     background-image: url(../img/privilege-section-bg.png);
     background-position: center;
@@ -190,7 +199,6 @@ img {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-
 }
 
 .start-descr {
@@ -225,7 +233,8 @@ img {
     align-items: center;
     text-align: center;
 }
-.contacts-list{
+
+.contacts-list {
     margin-right: 50px;
 }
 
@@ -243,35 +252,59 @@ img {
 .icon-contact {
     margin-right: 20px;
 }
-.tranee-content{
+
+.tranee-content {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
 }
-.tranee-name{
+
+.tranee-name {
     color: #fff;
     font-size: 36px;
     font-family: 'Gilroy Bold', 'sans serif';
     margin-bottom: 10px;
 }
-.tranee-stars{
+
+.tranee-stars {
     color: #fff;
     font-family: 'Gilroy Bold', 'sans serif';
 }
-.tranee-container{
+
+.tranee-container {
     max-width: 40%;
     text-align: center;
 }
-.tranee-img{
+
+.tranee-img {
     margin-bottom: 20px;
 }
-.tranee-section{
+
+.tranee-section {
     background-image: url(../img/tranee_bg.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-input[type='text'],
-textarea {
+
+input[type='text'], textarea {
     font-size: 16px;
 }
+
+
+a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
