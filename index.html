@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
     <title>Slon Swim Team</title>
     <link rel="stylesheet" href="fullpage/fullpage.css">
     <link rel="stylesheet" href="css/reset.css">
@@ -25,10 +26,13 @@
                         </div>
                         <nav class="nav">
                             <ul class="nav-list">
-                                <li class="nav-list__item">Главная</li>
-                                <li class="nav-list__item">Преимущества</li>
-                                <li class="nav-list__item">Наши тренера</li>
-                                <li class="nav-list__item">Контакты</li>
+                                <li data-menuanchor="1"><a class="nav-list__item" href="#1">Главная</a
+                                        class="nav-list__item"></li data-menuanchor="anchor1">
+                                <li data-menuanchor="2"><a class="nav-list__item" href="#2">Преимущества</a></li>
+                                <li data-menuanchor="3"><a class="nav-list__item" href="#3">Программа подготовки</a>
+                                </li>
+                                <li data-menuanchor="3"><a class="nav-list__item" href="#4">Наши тренеры</a></li>
+                                <li data-menuanchor="4"><a class="nav-list__item" href="#5">Контакты</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -152,7 +156,8 @@
                 <h2 class="section__title">Наши тренеры</h2>
                 <div class="tranee-content">
                     <div class="tranee-container">
-                        <img src="img/tranee1.png" alt="tranee" class="tranee-img"><img src="" alt="" class="tranee-img">
+                        <img src="img/tranee1.png" alt="tranee" class="tranee-img"><img src="" alt=""
+                            class="tranee-img">
                         <h4 class="tranee-name">Егор Чёрный</h4>
                         <p class="tranee-stars">Мастер спорта Украины по плаванию.
                             Многократный чемпион и призёр Украины.
@@ -160,13 +165,14 @@
                             Победитель заплыва на 5 км Oceanman Cyprus 2019</p>
                     </div>
                     <div class="tranee-container">
-                        <img src="img/tranee2.png" alt="tranee" class="tranee-img"><img src="" alt="" class="tranee-img">
+                        <img src="img/tranee2.png" alt="tranee" class="tranee-img"><img src="" alt=""
+                            class="tranee-img">
                         <h4 class="tranee-name">Дмитрий Оселедец</h4>
                         <p class="tranee-stars">Мастер спорта Украины по плаванию
                             Многократный чемпион Украины.
                             Финалист чемпионатов Европы
                             Бронзовый призер Всемирных игр среди
-                             военнослужащих Мунгён 2015
+                            военнослужащих Мунгён 2015
                             Участник XXXI Олимпийский игр Рио-де-Жанейро 2016
                             Серебряный призер Oceanman Cyprus 2019</p>
                     </div>
@@ -194,7 +200,7 @@
                     <div style="overflow:hidden;width: 250px;position: relative;"><iframe width="250" height="250"
                             src="https://maps.google.com/maps?width=250&amp;height=250&amp;hl=en&amp;q=Kiev+(%D0%9D%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed"
                             frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                        
+
                         <style>
                             #gmap_canvas img {
                                 max-width: none !important;
@@ -214,7 +220,13 @@
     <script type="text/javascript" src="fullpage/fullpage.js"></script>
     <script type="text/javascript">
         var myFullpage = new fullpage('#fullpage', {
-            verticalCentered: false
+            verticalCentered: false,
+            anchors: ['1', '2', '3', '4', '5'],
+            onLeave: function (origin, destination, direction) {
+                if (destination.index === 2) {
+                    destination.item.classList.add('load-background');
+                }
+            }
         });
     </script>
 </body>

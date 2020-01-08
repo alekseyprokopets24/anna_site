@@ -20,18 +20,20 @@ img {
 }
 
 .header-top {
+    
     display: flex;
     align-items: center;
     padding-bottom: 40px;
 }
 
 .logo {
-    width: 200px;
+    width: 150px;
     height: 100px;
     margin-right: 80px;
 }
 
 .nav-list {
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -42,8 +44,9 @@ img {
 }
 
 .nav-list__item {
-    font-size: 18px;
+    font-size: 14px;
     color: #fff;
+    text-decoration: none;
 }
 
 .header-content {
