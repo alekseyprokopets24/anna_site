@@ -240,3 +240,31 @@ img {
 .icon-contact {
     margin-right: 20px;
 }
+.tranee-content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.tranee-name{
+    color: #fff;
+    font-size: 36px;
+    font-family: 'Gilroy Bold', 'sans serif';
+    margin-bottom: 10px;
+}
+.tranee-stars{
+    color: #fff;
+    font-family: 'Gilroy Bold', 'sans serif';
+}
+.tranee-container{
+    max-width: 40%;
+    text-align: center;
+}
+.tranee-img{
+    margin-bottom: 20px;
+}
+.tranee-section{
+    background-image: url(../img/tranee_bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

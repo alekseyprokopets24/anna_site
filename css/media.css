@@ -49,6 +49,12 @@
     .start__img-container , .start-descr{
         width: 80%;
     }
+    .tranee-name{
+        font-size: 22px;
+    }
+    .tranee-stars{
+        font-size: 12px;
+    }
     
 }
 @media(max-width: 600px){
@@ -172,5 +178,8 @@
     }
     .contacts-list{
         margin: 0;
+    }
+    .tranee-stars{
+        font-size: 8px;
     }
 }
