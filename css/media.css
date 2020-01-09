@@ -1,4 +1,7 @@
 @media(max-width: 900px){
+    .contact-desrc{
+        font-size: 14px;
+    }
     .contact-form__title{
         font-size: 14px;
         margin-bottom: 20px;
@@ -28,7 +31,7 @@
         
     }
     .logo{
-        margin: 0 0 50px 0;
+        margin: 0 0 20px 0;
     }
     .header__title{
         font-size: 36px;
@@ -58,6 +61,10 @@
     
 }
 @media(max-width: 600px){
+    .start-descr{
+        padding: 4px;
+        border: 1px solid #fff;
+    }
    
     .container{
         padding: 30px 30px;
@@ -77,12 +84,13 @@
         font-size: 14px;
     }
     .contact-desrc{
-        font-size: 18px;
+        font-size: 14px;
     }
     .contacts-list__item{
         margin: 0 0 10px 0;
     }
     .contacts-list{
+        width: 100%;
         margin: 0;
     }
     .nav{
@@ -92,8 +100,8 @@
         flex-direction: column;
     }
     .nav-list__item{
-        font-size: 12px;
-        margin-bottom: 10px;
+        
+        margin-bottom: 20px;
     }
     .form{
         margin-bottom: 10px;
@@ -120,6 +128,9 @@
     }
     .header-content{
         padding-bottom: 20px;
+    }
+    .nav-item{
+        margin-bottom: 10px;
     }
 }
 @media(max-width: 320px){
@@ -181,5 +192,11 @@
     }
     .tranee-stars{
         font-size: 8px;
+    }
+    .fp-controlArrow.fp-next{
+        border-width: 24px 0 24px 18px;
+    }
+    .fp-controlArrow.fp-prev{
+        border-width: 24px 18px 24px 0;
     }
 }
